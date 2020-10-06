@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RGBY Code</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
+    </head>
+    <body>
+            <div id="header">
+                <img scr="logo.png">Code</img>
+            </div>
+        <ul class="menuOption">
+            <li class="menuOption">
+                <div class="menuOption">
+                    <a href="./index.html">Home</a>
+                </div>
+            </li>
+            <li class="menuOption">
+                <div class="menuOption">
+                    <a href="./code.html">Code</a>
+                </div>
+            </li>
+            <li class="menuOption">
+                <div class="menuOption">
+                    <a href="./images.html">Images</a>
+                </div>
+            </li>
+            <li class="menuOption">
+                <div class="menuOption">
+                    <a href="./maps.html">Maps</a>
+                </div>
+            </li>
+            <li class="menuOption">
+                <div class="menuOption">
+                    <a href="./music.html">Music</a>
+                </div>
+            </li>
+            <li class="menuOption">
+                <div class="menuOption">
+                    <a href="./projects.html">Projects</a>
+                </div>
+            </li>
+        </ul>
+        <div>
+            <div>
+                <article>
+                    <h2>Spotify Album Collage Maker</h2>
+                    <p>Enter the share link to your spotify playlist to make a collage of album covers. Use the other boxes to specify the width and height(in albums) of the collage.</p>
+                    <form onsubmit="return getFormResults()" method="post">
+                        <input type="number" id="collagewidth" placeholder="Width"></input>
+                        <input type="number" id="collageheight" placeholder="Height"></input>
+                        <input type="url" id="playlistid" placeholder="Spotify Share Link"></input>
+                        <input type="submit" value="Create"></input>
+                    </form>
+                    <script src="Javascript/spotifycollagemaker.js">
+                    </script>
+                    <!--<iframe src="https://open.spotify.com/embed/playlist/6JpQsEf9FrpDAmhKNWIV3B" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>-->
+                </article>
+            </div>
+        </div>
+    </body>
+</html>

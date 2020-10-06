@@ -1,0 +1,42 @@
+body {
+    background-color: #C0c0c0;
+    color: #808080;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    font-size: 600%;
+    outline-style: none;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+div {
+    outline-color: #808080;
+    outline-style: solid;
+}
+
+p {
+    font-size: 150%;
+}
+
+ul.menuOption {
+    font-size: 200%;
+    list-style-type: none;
+}
+
+li.menuOption {
+    display: inline;
+}
+
+div.menuOption {
+    display: inline;
+    margin-right: 10px;
+}
